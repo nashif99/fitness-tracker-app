@@ -1,0 +1,44 @@
+.food-tracker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.food-item-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.food-item-calories {
+    font-size: 16px;
+    color: #333;
+}
+
+.food-item-macros {
+    font-size: 14px;
+    color: #666;
+}
+
+.add-food-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-food-button:hover {
+    background-color: #45a049;
+}

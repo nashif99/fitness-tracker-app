@@ -1,0 +1,62 @@
+.exercise-tracker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.exercise-tracker-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.exercise-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.exercise-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.exercise-item .exercise-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.exercise-item .exercise-details {
+    font-size: 16px;
+}
+
+.add-exercise-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.add-exercise-form input,
+.add-exercise-form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.add-exercise-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.add-exercise-form button:hover {
+    background-color: #45a049;
+}
